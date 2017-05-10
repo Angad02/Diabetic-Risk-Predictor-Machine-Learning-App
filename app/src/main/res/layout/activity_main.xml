@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <EditText
+
+        android:id="@+id/arg1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/admission"
+        android:inputType="phone" />
+
+    <EditText
+
+        android:id="@+id/arg2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/lab_procedure"
+        android:inputType="phone" />
+
+    <EditText
+
+        android:id="@+id/arg3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/diag_1"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/arg4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/diagnosis"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/arg5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/procedure"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/arg6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/medication" />
+
+    <EditText
+        android:id="@+id/arg7"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/input_height"
+        android:hint="@string/glucose"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/button_height"
+        android:onClick="submit"
+        android:text="@string/submit_data" />
+
+
+</LinearLayout>
